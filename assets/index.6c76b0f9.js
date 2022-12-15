@@ -76,7 +76,7 @@ Error generating stack: `+o.message+`
     display: flex;
     flex-direction: row;
     cursor: pointer;
-`;var No={exports:{}},zo={};/**
+`,xm="/Certificados/assets/Download.e51c9629.svg",Em="/Certificados/assets/View.58cf16c8.svg";var No={exports:{}},zo={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
@@ -84,7 +84,7 @@ Error generating stack: `+o.message+`
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var xm=ut.exports,Em=Symbol.for("react.element"),_m=Symbol.for("react.fragment"),Pm=Object.prototype.hasOwnProperty,Nm=xm.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,zm={key:!0,ref:!0,__self:!0,__source:!0};function ld(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)Pm.call(t,r)&&!zm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Em,type:e,key:o,ref:i,props:l,_owner:Nm.current}}zo.Fragment=_m;zo.jsx=ld;zo.jsxs=ld;(function(e){e.exports=zo})(No);const as=No.exports.Fragment,De=No.exports.jsx,$o=No.exports.jsxs,$m=()=>De(Sm,{children:De(km,{children:$o(Cm,{children:[De(Ta,{src:"./../../src/assets/Icons/Download.svg",alt:"Baixar Certificado"}),De(Ta,{src:"./../../src/assets/Icons/View.svg",alt:"Ver Certificado"})]})})}),Tm=Zt.div`
+ */var _m=ut.exports,Pm=Symbol.for("react.element"),Nm=Symbol.for("react.fragment"),zm=Object.prototype.hasOwnProperty,$m=_m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,Tm={key:!0,ref:!0,__self:!0,__source:!0};function ld(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)zm.call(t,r)&&!Tm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Pm,type:e,key:o,ref:i,props:l,_owner:$m.current}}zo.Fragment=Nm;zo.jsx=ld;zo.jsxs=ld;(function(e){e.exports=zo})(No);const as=No.exports.Fragment,De=No.exports.jsx,$o=No.exports.jsxs,Rm=()=>De(Sm,{children:De(km,{children:$o(Cm,{children:[De(Ta,{src:xm,alt:"Baixar Certificado"}),De(Ta,{src:Em,alt:"Ver Certificado"})]})})}),Lm=Zt.div`
     width: 100vw;
     height: 55vh;
     background-color: #242528;
@@ -93,7 +93,7 @@ Error generating stack: `+o.message+`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-`,Rm=Zt.div`
+`,Om=Zt.div`
     background-color: white;
     width: 13vw;
     height: 1.5vh;
@@ -101,14 +101,14 @@ Error generating stack: `+o.message+`
     position: absolute;
     bottom: 5%;
     left: 43.5%;
-`,Lm=Zt.h1`
+`,Am=Zt.h1`
     font-family: 'Arial', sans-serif;
     color: #93a7fa;
-`,Om=Zt.h4`
+`,Im=Zt.h4`
     font-family: 'Arial', sans-serif;
     color: #93a7fa;
     margin-top: 40px;
-`,Am=()=>De(as,{children:$o(Tm,{children:[De(Rm,{}),De(Lm,{children:"Esses s\xE3o meus Certificados!"}),De(Om,{children:"Certificados originais e cursos feitos principalmente na plataforma da DIO."})]})}),Im=()=>$o(as,{children:[De(Am,{}),De($m,{})]}),Mm=wm`
+`,Mm=()=>De(as,{children:$o(Lm,{children:[De(Om,{}),De(Am,{children:"Esses s\xE3o meus Certificados!"}),De(Im,{children:"Certificados originais e cursos feitos principalmente na plataforma da DIO."})]})}),Dm=()=>$o(as,{children:[De(Mm,{}),De(Rm,{})]}),jm=wm`
     *{
         padding: 0;
         margin: 0;
@@ -119,4 +119,4 @@ Error generating stack: `+o.message+`
         height: 100%;
     }
 
-`;function Dm(){return $o(as,{children:[De(Mm,{}),De(Im,{})]})}ii.createRoot(document.getElementById("root")).render(De(Vn.StrictMode,{children:De(Dm,{})}));
+`;function Fm(){return $o(as,{children:[De(jm,{}),De(Dm,{})]})}ii.createRoot(document.getElementById("root")).render(De(Vn.StrictMode,{children:De(Fm,{})}));
