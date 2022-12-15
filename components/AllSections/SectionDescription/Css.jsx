@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 55vh;
     background-color: #242528;
     position: relative;
@@ -13,21 +13,32 @@ export const Container = styled.div`
 
 export const EndLine = styled.div`
     background-color: white;
-    width: 13vw;
+    width: 13%;
     height: 1.5vh;
     border-radius: 13px;
     position: absolute;
     bottom: 5%;
     left: 43.5%;
+    @media (max-width: 768px){
+        width: 25%;
+        left: 37.5%;
+    }
 `
 
 export const Paragraph = styled.h1`
     font-family: 'Arial', sans-serif;
     color: #93a7fa;
+    @media (max-width: 768px){
+        text-align: center;
+    }
 `
 
 export const DescriptionP = styled.h4`
     font-family: 'Arial', sans-serif;
     color: #93a7fa;
     margin-top: 40px;
+    @media (max-width: 768px){
+        text-align: center;
+        padding: 0 35px;
+    }
 `

@@ -1,18 +1,22 @@
 import React from 'react';
-import { Container, CardSize, CardShadow, Images} from './CardCss';
+import { Container, CardSize, CardShadow, Images, CardSizeImg} from './CardCss';
 
+import Baixar from './../../src/assets/Icons/Download.svg';
+import Ver from './../../src/assets/Icons/View.svg';
 
-
-const Card = () => {
-    return (
-        <Container>
-            <CardSize>
-                <CardShadow>
-                        <Images src='../../src/assets/Icons/Download.svg' alt="Baixar Certificado"></Images>
-                        <Images src='../../src/assets/Icons/View.svg' alt="Ver Certificado"></Images>
-                </CardShadow>
-            </CardSize>
-        </Container>
+const Card = ({Dados}) => {
+    return (<></>
+    //     Dados.map((dado) => (
+    //         <Container>
+    //             <CardSize>
+    //                 <CardSizeImg src={dado.CardSizeImg}></CardSizeImg>
+    //                 <CardShadow>
+    //                         <Images src={Baixar} alt="Baixar Certificado"></Images>
+    //                         <Images src={Ver} alt="Ver Certificado"></Images>
+    //                 </CardShadow>
+    //             </CardSize>
+    //         </Container>
+    // ))
     )
 }
 
