@@ -42,3 +42,9 @@ export const DescriptionP = styled.h4`
         padding: 0 35px;
     }
 `
+
+export const Negrito = styled.span`
+    font-family: 'Arial', sans-serif;
+    color: #3497ed;
+    font-weight: bold;
+`

@@ -1,22 +1,24 @@
 import React from 'react';
-import { Container, CardSize, CardShadow, Images, CardSizeImg} from './CardCss';
+import { CardSize, CardShadow, Images, CardSizeImg, Link} from './CardCss';
 
 import Baixar from './../../src/assets/Icons/Download.svg';
 import Ver from './../../src/assets/Icons/View.svg';
 
 const Card = ({Dados}) => {
-    return (<></>
-    //     Dados.map((dado) => (
-    //         <Container>
-    //             <CardSize>
-    //                 <CardSizeImg src={dado.CardSizeImg}></CardSizeImg>
-    //                 <CardShadow>
-    //                         <Images src={Baixar} alt="Baixar Certificado"></Images>
-    //                         <Images src={Ver} alt="Ver Certificado"></Images>
-    //                 </CardShadow>
-    //             </CardSize>
-    //         </Container>
-    // ))
+    
+    
+    return (
+            
+        Dados.map((dado) => (
+                <CardSize key={dado.id}>
+                    <CardSizeImg src={dado.CardSizeImg} title={dado.name} alt={dado.name}></CardSizeImg>
+                    
+                    <CardShadow>
+                            <Link href={dado.CardSizeImg} download={dado.name}><Images src={Baixar} alt="Baixar Certificado" /></Link>
+                            <Images onClick={() => window.location.href = dado.ShowLink} src={Ver} alt="Ver Certificado" />
+                    </CardShadow>
+                </CardSize>
+    ))
     )
 }
 

@@ -1,17 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: #413e40;
-    gap: 4em;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 1.5em;
-`
-
 export const CardSize = styled.div`
     background-color: gray;
     position: relative;
@@ -100,43 +88,32 @@ export const CardShadow = styled.div`
 
     @media (min-width: 860px) and (max-width: 1020px){
         width: 32vw;
-        gap: 100px;
+        gap: 70px;
     }
     @media (min-width: 660px) and (max-width: 860px){
         width: 40vw;
-        gap: 130px;
+        gap: 70px;
     }
     @media (min-width: 310px) and (max-width: 660px){
         width: 50vw;
-        gap: 140px;
+        gap: 70px;
     }
 `
 
 export const Images = styled.img`
     width: 5vw;
     height: 5vh;
-    display: flex;
-    flex-direction: row;
     cursor: pointer;
-    @media (min-width: 1500px) and (max-width: 1920px){
-        width: 23vw;
-    }
-    @media (min-width: 1200px) and (max-width: 1500px){
-        width: 25vw;
-    }
-    @media (min-width: 1020px) and (max-width: 1200px){
-        width: 28vw;
-    }
-
-
-    @media (min-width: 860px) and (max-width: 1020px){
-        width: 32vw;
-    }
     @media (min-width: 660px) and (max-width: 860px){
-        width: 40vw;
+        width: 8vw;
     }
     @media (min-width: 310px) and (max-width: 660px){
-        width: 50vw;
+        width: 8vw;
     }
+
+`
+
+export const Link = styled.a`
+    
 
 `
