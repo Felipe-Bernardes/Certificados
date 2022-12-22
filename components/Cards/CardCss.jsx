@@ -20,15 +20,20 @@ export const CardSize = styled.div`
 
     @media (min-width: 860px) and (max-width: 1020px){
         width: 32vw;
-        height 27vh;
+        height 23vh;
     }
     @media (min-width: 660px) and (max-width: 860px){
         width: 40vw;
-        height 26vh;
+        height 24vh;
     }
     @media (min-width: 310px) and (max-width: 660px){
         width: 50vw;
-        height 24vh;
+        height 20vh;
+    }
+
+    @media (min-width: 200px) and (max-width: 310px){
+        width: 50vw;
+        height 17vh;
     }
 `
 
@@ -51,16 +56,21 @@ export const CardSizeImg = styled.img`
 
     @media (min-width: 860px) and (max-width: 1020px){
         width: 32vw;
-        height 27vh;
+        height 23vh;
     }
     @media (min-width: 660px) and (max-width: 860px){
         width: 40vw;
-        height 26vh;
+        height 24vh;
     }
     @media (min-width: 310px) and (max-width: 660px){
         width: 50vw;
-        height 24vh;
+        height 20vh;
     }
+    @media (min-width: 200px) and (max-width: 310px){
+        width: 50vw;
+        height 17vh;
+    }
+    
 `
 
 export const CardShadow = styled.div`
@@ -98,12 +108,20 @@ export const CardShadow = styled.div`
         width: 50vw;
         gap: 70px;
     }
+    @media (min-width: 200px) and (max-width: 310px){
+        width: 50vw;
+        height: 6vh;
+        gap: 50px;
+    }
 `
 
 export const Images = styled.img`
     width: 5vw;
     height: 5vh;
     cursor: pointer;
+    @media (min-width: 860px) and (max-width: 1020px){
+        width: 6vw;
+    }
     @media (min-width: 660px) and (max-width: 860px){
         width: 8vw;
     }
@@ -111,9 +129,22 @@ export const Images = styled.img`
         width: 8vw;
     }
 
+    @media (min-width: 200px) and (max-width: 310px){
+        width: 7vw;
+    }
+
 `
 
 export const Link = styled.a`
-    
+    @media (min-width: 660px) and (max-width: 860px){
+        display: none;
+    }
+    @media (min-width: 310px) and (max-width: 660px){
+        display: none;
+    }
+
+    @media (min-width: 200px) and (max-width: 310px){
+        display: none;
+    }
 
 `

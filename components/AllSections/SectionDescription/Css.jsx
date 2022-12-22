@@ -9,6 +9,9 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    @media (min-width: 200px) and (max-width: 310px){
+        height 73vh;
+    }
 `
 
 export const EndLine = styled.div`
@@ -23,6 +26,7 @@ export const EndLine = styled.div`
         width: 25%;
         left: 37.5%;
     }
+    
 `
 
 export const Paragraph = styled.h1`

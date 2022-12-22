@@ -19,6 +19,7 @@ import Cert13 from './../../src/Cert-Print/Cert13.png'
 import Cert14 from './../../src/Cert-Print/Cert14.png'
 import Cert15 from './../../src/Cert-Print/Cert15.png'
 import Cert16 from './../../src/Cert-Print/Cert16.png'
+import { Footer } from '../Footer/Footer';
 
 const GlobalSection = () => {
     const Certificados = [
@@ -122,10 +123,11 @@ const GlobalSection = () => {
 
     return (
         <>
-            <Description></Description>
+            <Description/>
             <Container>
                 <Card Dados={Certificados} />
             </Container>
+            <Footer />
         </>
     )
 }

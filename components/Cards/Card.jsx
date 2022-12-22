@@ -6,7 +6,6 @@ import Ver from './../../src/assets/Icons/View.svg';
 
 const Card = ({Dados}) => {
     
-    
     return (
             
         Dados.map((dado) => (
