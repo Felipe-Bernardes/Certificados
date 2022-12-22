@@ -237,7 +237,7 @@ Error generating stack: `+l.message+`
     font-family: 'Arial', sans-serif;
     color: #3497ed;
     font-weight: bold;
-`,Fm=()=>se(Tl,{children:Bn(Om,{children:[se(Dm,{}),se(Mm,{children:"Esses s\xE3o alguns dos meus Certificados!"}),se(La,{children:"Certificados originais e cursos feitos principalmente na plataforma da DIO."}),Bn(La,{children:["Tenho o total de ",se(Ra,{children:"53"})," Certificados, mas para o site n\xE3o ficar cheio fiz com apenas ",se(Ra,{children:"16"})]})]})}),jm=Xe.div`
+`,Fm=()=>se(Tl,{children:Bn(Om,{children:[se(Dm,{}),se(Mm,{children:"Esses s\xE3o alguns dos meus Certificados!"}),se(La,{children:"Certificados originais e cursos feitos principalmente na plataforma da DIO."}),Bn(La,{children:["Tenho o total de ",se(Ra,{children:"52"})," Certificados, mas para o site n\xE3o ficar cheio fiz com apenas ",se(Ra,{children:"16"}),"."]})]})}),jm=Xe.div`
     width: 100%;
     height: auto;
     display: flex;
