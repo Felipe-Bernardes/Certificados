@@ -2,5 +2,9 @@
 # Certificados
 
 # Descrição do Projeto
-&nbsp;&nbsp;Projeto criado para facilitar a demonstração de certificados no curriculo, sendo que, na área de Qualificações Profissionais precisara apenas colocar o link do site para facil acesso aos certificados.
+Projeto criado para facilitar a demonstração de certificados no currículo, sendo que, na área de Qualificações Profissionais precisara apenas colocar o link do site para fácil acesso aos certificados.
+
+# Status do Projeto
+
+Projeto finalizado, mas aberto a críticas para melhoras.
 
