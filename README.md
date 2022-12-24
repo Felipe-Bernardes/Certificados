@@ -15,3 +15,10 @@ O projeto pode ser acessado no meu [GitHub](https://github.com/Felipe-Bernardes/
 * Utilize o git para clonar o Projeto em seu computador com o comando - git clone **projeto**.
 * Digite **git i** no terminal do seu editor de texto para criar as pasta node_modules.
 * Após isso digite **npm run dev** para visualizar o site no google.
+
+# Tecnologias Utilizadas
+* HTML5
+* CSS3
+* JavaScript
+* ReactJS
+* Styled-Components
