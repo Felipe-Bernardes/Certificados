@@ -123,10 +123,10 @@ const GlobalSection = () => {
 
     return (
         <>
-            <Description/>
-            <Container>
-                <Card Dados={Certificados} />
-            </Container>
+            <Description />
+                <Container>
+                    <Card Dados={Certificados} />
+                </Container>
             <Footer />
         </>
     )

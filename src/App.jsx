@@ -4,8 +4,8 @@ import { GlobalStyle } from "./AppCss"
 function App() {
   return (
     <>
-    <GlobalStyle />
-      <GlobalSection></GlobalSection>
+      <GlobalStyle />
+      <GlobalSection />
     </>
   )
 }
