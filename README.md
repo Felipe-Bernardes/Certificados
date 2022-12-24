@@ -12,6 +12,6 @@ Projeto finalizado, mas aberto a críticas para melhoras.
 O projeto pode ser acessado no meu [GitHub](https://github.com/Felipe-Bernardes/Certificados)
 
 # Como rodar o Projeto
-Utilize o git para clonar o Projeto em seu computador com o comando - git clone **projeto**.
-Digite **git i** no terminal do seu editor de texto para criar as pasta node_modules.
-Após isso digite **npm run dev** para visualizar o site no google.
+* Utilize o git para clonar o Projeto em seu computador com o comando - git clone **projeto**.
+* Digite **git i** no terminal do seu editor de texto para criar as pasta node_modules.
+* Após isso digite **npm run dev** para visualizar o site no google.
