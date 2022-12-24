@@ -5,11 +5,10 @@
 #### Projeto criado para facilitar a demonstração de certificados no currículo, sendo que, na área de Qualificações Profissionais precisara apenas colocar o link do site para fácil acesso aos certificados.
 
 # Status do Projeto
-
-Projeto finalizado, mas aberto a críticas para melhoras.
+#### Projeto finalizado, mas aberto a críticas para melhoras.
 
 # Acesso ao Projeto
-O projeto pode ser acessado no meu [GitHub](https://github.com/Felipe-Bernardes/Certificados)
+#### O projeto pode ser acessado no meu [GitHub](https://github.com/Felipe-Bernardes/Certificados)
 
 # Como rodar o Projeto
 * Utilize o git para clonar o Projeto em seu computador com o comando - git clone **projeto**.
