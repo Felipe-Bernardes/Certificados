@@ -8,3 +8,8 @@ Projeto criado para facilitar a demonstração de certificados no currículo, se
 
 Projeto finalizado, mas aberto a críticas para melhoras.
 
+# Acesso ao Projeto
+O projeto pode ser acessado no meu [GitHub](https://github.com/Felipe-Bernardes/Certificados)
+
+# Como rodar o Projeto
+Utilize o git para clonar o Projeto em seu computador com o comando - git clone <projeto>
